@@ -21,7 +21,7 @@ st.set_page_config(page_title="Plotting Demo", page_icon="📈")
 conn = st.experimental_connection(
     "local_db",
     type="sql",
-    url="mysql://admin:123456@8.130.75.230:3306/my"
+    url="mysql+pymysql://admin:123456@8.130.75.230:3306/my"
 )
 
 
